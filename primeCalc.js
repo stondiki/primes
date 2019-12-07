@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const path = './nodePrimes.json';
-let primes, n, x, y = 4000000;
+let primes, n, x, y = 100000;
 
 try {
     if(fs.existsSync(path)){
